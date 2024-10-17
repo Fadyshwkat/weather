@@ -1,0 +1,225 @@
+body {
+    color: #bfc1c8;
+    font-family: "Roboto", "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5;
+    background: #1e202b;
+}
+
+small{
+    color: #bfc1c8;
+}
+.menu-toggle{
+    background: #1e202b;
+    color: white;
+    border: solid 2px transparent;
+    padding:20px ;
+    border-radius: 50px;
+    
+    display: none;
+}
+.menu-toggle:hover{
+    border: solid 2px #009ad8;
+    color: #009ad8;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+    
+}
+nav li a{
+    border-radius: 1000px;
+    color: white;
+    padding:5px 25px;
+    font-size: 0.9rem;
+    transition: all 0.3s;
+    border: solid 2px transparent;
+    font-weight: 400;
+    
+}
+nav li a:hover{
+    color: #009ad8;
+    border: solid 2px #009ad8;
+}
+.selected{
+    color: #009ad8;
+    border: solid 2px #009ad8;
+}
+.home-content{
+    background-image: url(../imgs/banner.png);
+    background-repeat: no-repeat;
+    padding: 70px 0;
+    min-height: 350px;
+}
+.home-search input,footer input{
+background-color: #1e202b !important;
+outline: none !important;
+border: none !important;
+border-radius: 100px !important;
+padding-block: 15px !important;
+padding-inline: 20px !important;
+}
+.home-search input:focus,footer input:focus{
+    background-color: #1e202b;
+    outline: none;
+    border: none;
+}
+.search-input{
+    color: #bfc1c8 !important;
+}
+::placeholder{
+    color: gray !important;
+    font-size: 0.8rem;
+}
+.search-btn,.subscribe-btn{
+    color: white;
+    background-color: #009ad8;
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    transform: translateY(-50%);
+    padding: 10px 40px;
+    border-radius: 100px;
+    border: none;
+}
+.today-card header{
+    background-color: #2d303d;
+    display: flex;
+    justify-content: space-between;
+    border-top-left-radius: 10px;
+    
+
+}
+.today-body{
+    background-color: #323544;
+    padding:  1rem;
+    height: 200px;
+}
+
+.degree p{
+    font-size: 5rem;
+    font-weight: 700;
+    color: white;
+}
+
+.today-foot{
+    background-color: #323544;
+    padding:  1rem;
+    font-size: 1rem;
+    border-bottom-left-radius: 10px;
+}
+.today-foot i{
+    margin-right: 5px;
+}
+.tomorrow-card header{
+    background-color: #222530;
+}
+.tomorrow-body{
+    background-color: #262936;
+    padding: 1rem;
+    height: 296px;
+}
+header p{
+    margin-bottom: 0px;
+    padding: 0.5rem ;
+}
+
+.tomorrow-card .today-col-head{
+    background-color: #2d303d;
+}
+
+.today-col-body{
+    background-color: #323544;
+}
+
+footer form{
+    width: 65%;
+}
+.subscribe-btn{
+    padding: 12px 22px;
+}
+footer{
+    background-color: #262936;
+}
+.icon-circle{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #1e202b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer ul li a{
+    color: #009ad8;
+}
+footer ul li:hover .icon-circle{
+    background-color: #009ad8;
+}
+footer ul li:hover a{
+    color: white;
+}
+
+.card-right header{
+    border-top-right-radius: 10px;
+}
+
+.card-right .tomorrow-body{
+    border-bottom-right-radius: 10px;
+}
+.bread-crump{
+    background-color: #262936;
+    padding: 1.2rem;
+    border-radius: 100px;
+}
+main a{
+    color: #bfc1c8;
+    text-decoration: none;
+}
+main a:hover{
+    text-decoration: underline;
+}
+main input{
+    background-color: #1e202b;
+    padding-block: 0.9rem;
+    padding-inline: 1rem;
+    border: 2px solid #262936;
+    border-radius: 100px;
+   
+}
+textarea{
+    background-color: #1e202b;
+    padding-block: 0.9rem;
+    padding-inline: 1rem;
+    border: 2px solid #262936;
+    border-radius: 20px;
+    min-height: 150px;
+}
+main input:hover,main textarea:hover,main input:focus,main textarea:focus{
+    border: 2px solid #009ad8;
+    outline: none;
+}
+.contact-address{
+    background-color: #262936;
+}
+.contact-address{
+    border-radius: 10px;
+    padding-inline: 20px;
+    font-size: 1rem;
+}
+.contact-info i{
+    color: #009ad8;
+    margin-right: 10px;
+}
+.submit-btn{
+    width: 100px;
+    padding: 12px ;
+    margin-left: auto;
+    background-color: #009ad8;
+    color: white;
+    border-radius: 50px;
+    border: none;
+
+}

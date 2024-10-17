@@ -1,0 +1,41 @@
+@media (max-width: 991.98px) { 
+    .nav-links{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 0px;
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+       
+    }
+    .main-navigation{
+        width: 70%;
+        
+    }
+    .nav-links{
+        display: none;
+    }
+    .nav-links li{
+        width: 100%;
+       background-color: #262936;
+       padding-block: 15px;
+       border-bottom: 1px solid #3c3f4a;
+       
+    }
+    .menu-toggle{
+        
+        display: block;
+        margin-left: auto;
+    }
+
+    nav li a:hover{
+        color: #009ad8;
+        border: solid 2px transparent;
+    }
+    .selected{
+        color: #009ad8;
+        border: solid 2px transparent;
+    }
+    
+}

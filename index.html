@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reponsive.css">
+</head>
+<body>
+    <main >
+        <nav class="py-5  container position-relative d-flex justify-content-between">
+            <a href="index.html" class="logo text-decoration-none d-flex justify-content-start">
+                <div class="logo-img">
+                    <img src="imgs/logo.png" alt="logo">
+                </div>
+                <div class="logo-text ms-2">
+                    <h1 class="fs-6 text-white mb-1">Weather</h1>
+                    <small class="">tagline goes here</small>
+                </div>
+            </a>
+            <div class="main-navigation ">
+                <button type="button" class="menu-toggle position-relative "><i class="fa fa-bars"></i></button>
+                <ul class="list-unstyled nav-links ">
+                    <li >
+                        <a class="text-decoration-none selected" href="index.html">Home</a>
+                    </li>
+                    
+                    <li>
+                        <a class="text-decoration-none" href="index.html">News</a>
+                    </li>
+                    <li>
+                        <a class="text-decoration-none" href="index.html">Live Cameras</a>
+                    </li>
+                    <li>
+                        <a class="text-decoration-none" href="index.html">Photos</a>
+                    </li>
+                    <li>
+                        <a class="text-decoration-none" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            
+        </nav>
+       <div class="home-content">
+            <section class="home-search container mb-5">
+                <form class=" position-relative">
+                    <input class="form-control shadow-none search-input" type="text" placeholder="Find your location...">
+                    <button class=" search-btn">Find</button>
+                </form>
+            </section>
+            <div class="forecast container pt-4 ">
+                <div class="row gx-0 gy-3 forecast-table ">
+                    
+                    
+                </div>
+            </div>
+       </div>
+       <footer class="py-5">
+            <div class="container  ">
+                    <div class="d-flex justify-content-between mb-4">
+                        <form class=" position-relative">
+                            <input class="form-control shadow-none" type="email" placeholder="Enter your email to subscribe...">
+                            <button class=" subscribe-btn">Subscribe</button>
+                        </form>
+                        <ul class="list-unstyled d-flex justify-content-center gap-2 me-5">
+                            <li><a href="" class="text-decoration-none fs-5 "><div class="icon-circle"><i class="fab fa-facebook-f"></i></div></a></li>
+                            <li><a href="" class="text-decoration-none fs-5 "><div class="icon-circle"><i class="fab fa-twitter"></i></div></a></li>
+                            <li><a href="" class="text-decoration-none fs-5 "><div class="icon-circle"><i class="fa-brands fa-google-plus-g"></i></div></a></li>
+                            <li><a href="" class="text-decoration-none fs-5 "><div class="icon-circle"><i class="fab fa-pinterest"></i></div></a></li>
+                        </ul>
+                    </div>
+                <p>Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+            </div>
+
+       </footer>
+    </main>
+ 
+    
+    <script src="js/index.js"></script>
+</body>
+</html>

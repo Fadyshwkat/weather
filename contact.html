@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/reponsive.css">
+</head>
+<body>
+    <main >
+        <nav class="py-5  container position-relative d-flex justify-content-between">
+            <a href="index.html" class="logo text-decoration-none d-flex justify-content-start">
+                <div class="logo-img">
+                    <img src="imgs/logo.png" alt="logo">
+                </div>
+                <div class="logo-text ms-2">
+                    <h1 class="fs-6 text-white mb-1">Weather</h1>
+                    <small class="">tagline goes here</small>
+                </div>
+            </a>
+            <div class="main-navigation ">
+                <button type="button" class="menu-toggle position-relative "><i class="fa fa-bars"></i></button>
+                <ul class="list-unstyled nav-links ">
+                    <li >
+                        <a class="text-decoration-none " href="index.html">Home</a>
+                    </li>
+                    
+                    <li>
+                        <a class="text-decoration-none" href="index.html">News</a>
+                    </li>
+                    <li>
+                        <a class="text-decoration-none" href="index.html">Live Cameras</a>
+                    </li>
+                    <li>
+                        <a class="text-decoration-none" href="index.html">Photos</a>
+                    </li>
+                    <li>
+                        <a class="text-decoration-none selected" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            
+        </nav>
+       <div class="bread-crump container mb-5">
+        <a class="" href="index.html">Home</a>
+        <i class="fa-solid fa-arrow-right-long mx-2 "></i>
+        <span class="text-white fw-bolder">Contact</span>
+       </div>
+       <section class="contact-info container my-5">
+            <div class="row py-3">
+                <div class="col-lg-5 contact-address d-flex align-items-center">
+                    <div>
+                    <p><i class="fa-solid fa-location-dot"></i>Company Name INC.2803 Avenue Street, Los Angeles</p>
+                    <p><a href="tel:+1 800 314 235"><i class="fa-solid fa-phone"></i>+1 800 314 235</a></p>
+                    <p><a href="mailto:contact@companyname.com"><i class="fa-solid fa-envelope"></i>contact@companyname.com</a></p>
+                    </div>
+                </div>
+                <div class="offset-lg-1 col-lg-6">
+                    <h2 class="text-white mb-3 fw-bolder">Contact us</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi consectetur inventore ducimus, facilis, numquam id soluta omnis eius recusandae nesciunt vero repellat harum cum. Nisi facilis odit hic, ipsum sed!</p>
+                    <div class="row gy-3">
+                        <div class="col-lg-6 px-0"><input type="text" placeholder="Your Name..."  class="w-100"></div>
+                        <div class="col-lg-6 px-0"><input type="email" placeholder="Email Adress..." class="w-100"></div>
+                        <div class="col-lg-6 px-0"><input type="text" placeholder="Company Name..." class="w-100"></div>
+                        <div class="col-lg-6 px-0"><input type="url" placeholder="Website..." class="w-100"></div>
+                        <textarea name="message" id="message" placeholder="Message..." class="col-12"></textarea>
+                        <button class="submit-btn ">Submit</button>
+                    </div>
+                </div>
+            </div>
+       </section>
+       <footer class="py-5">
+            <div class="container  ">
+                    <div class="d-flex justify-content-between mb-4">
+                        <form class=" position-relative">
+                            <input class="form-control shadow-none" type="email" placeholder="Enter your email to subscribe...">
+                            <button class=" subscribe-btn">Subscribe</button>
+                        </form>
+                        <ul class="list-unstyled d-flex justify-content-center gap-2 me-5">
+                            <li><a href="" class="text-decoration-none fs-5 "><div class="icon-circle"><i class="fab fa-facebook-f"></i></div></a></li>
+                            <li><a href="" class="text-decoration-none fs-5 "><div class="icon-circle"><i class="fab fa-twitter"></i></div></a></li>
+                            <li><a href="" class="text-decoration-none fs-5 "><div class="icon-circle"><i class="fa-brands fa-google-plus-g"></i></div></a></li>
+                            <li><a href="" class="text-decoration-none fs-5 "><div class="icon-circle"><i class="fab fa-pinterest"></i></div></a></li>
+                        </ul>
+                    </div>
+                <p>Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+            </div>
+
+       </footer>
+    </main>
+ 
+    
+    <script src="js/index.js"></script>
+</body>
+</html>
