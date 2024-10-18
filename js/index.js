@@ -1,15 +1,20 @@
 let forecastTable = document.querySelector(".forecast-table");
 let searchInput = document.querySelector(".search-input");
-let menuToggle = document.querySelector(".menu-toggle")
-
+let menuToggle = document.querySelector(".menu-toggle");
+let navMenu = document.querySelector(".nav-links-mobile");
 menuToggle.addEventListener("click", function() {
-    const menu = menuToggle.nextElementSibling;
-    if (menu.style.display === "none" || menu.style.display === "") {
-        menu.style.display = "flex";
+    if (navMenu.style.display === "none" || navMenu.style.display === "") {
+        navMenu.style.display = "flex";
     } else {
-        menu.style.display = "none";
+        navMenu.style.display = "none";
     }
 });
+window.addEventListener("resize", function() {
+    if (window.innerWidth > 992) {
+        navMenu.style.display = "none";
+    }
+});
+
 
 
 cast = {};

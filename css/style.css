@@ -29,6 +29,9 @@ small{
     gap: 5px;
     
 }
+.nav-links-mobile{
+    display: none;
+}
 nav li a{
     border-radius: 1000px;
     color: white;
@@ -73,7 +76,7 @@ padding-inline: 20px !important;
     color: gray !important;
     font-size: 0.8rem;
 }
-.search-btn,.subscribe-btn{
+.search-btn{
     color: white;
     background-color: #009ad8;
     position: absolute;
@@ -134,11 +137,17 @@ header p{
     background-color: #323544;
 }
 
-footer form{
-    width: 65%;
-}
 .subscribe-btn{
-    padding: 12px 22px;
+    color: white;
+    background-color: #009ad8;
+    position: absolute;
+    height: 50px;
+    top: 0;
+    bottom: 0;
+    right: 10px;
+    padding: 0px 30px;
+    border-radius: 100px;
+    border: none;
 }
 footer{
     background-color: #262936;
@@ -160,6 +169,9 @@ footer ul li:hover .icon-circle{
 }
 footer ul li:hover a{
     color: white;
+}
+footer input{
+    width: 100%;
 }
 
 .card-right header{
